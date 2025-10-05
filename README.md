@@ -18,3 +18,30 @@ Streamlitで作ったシンプルなAIアプリ！ 花の特徴（がく片・�
 
 ## 実行方法（ローカルで動かす）
 1. このリポジトリをクローン:
+
+
+2. フォルダに移動: `cd iris-prediction-app`
+3. ライブラリインストール:
+
+4. アプリ起動:
+
+- ブラウザで `http://localhost:8501` が開きます！
+
+## 技術スタック
+| カテゴリ | ツール |
+|----------|--------|
+| 言語 | Python 3.x |
+| 機械学習 | scikit-learn (RandomForestClassifier) |
+| Webアプリ | Streamlit |
+| データ処理 | NumPy |
+
+## 学びと今後
+- **学んだこと**: 機械学習の基本フロー（データ分割、訓練、評価）とStreamlitの簡単なWebアプリ化。エラー修正（NameErrorなど）でデバッグスキルUP！
+- **課題**: データセットが小さいので、次は実世界データ（例: 画像認識）で拡張予定。
+- **所要時間**: 約2時間（初心者）。
+
+## ライセンス
+MIT License（自由に使ってOK）。
+
+質問やフィードバックがあれば、[Issues](https://github.com/KitayamaRosanjin/iris-prediction-app/issues)からどうぞ！ ⭐ を押して応援お願いします。  
+作成者: Kitayama Rosanjin (@GitHubユーザー名)
